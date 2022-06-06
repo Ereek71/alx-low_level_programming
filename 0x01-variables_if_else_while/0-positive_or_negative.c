@@ -3,11 +3,13 @@
 #include <stdio.h>
 
 /**
- *  main - Prints a random number and states wheather it
- *         is positive, negative, or zero.
+ * main - Entry point 
  *
- * Return: Always 0.
-*/
+ * Description: 'positive anything is better than negative
+ *               nothing'
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	int n;
