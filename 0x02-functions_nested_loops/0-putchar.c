@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <_putchar.h>
 
 /**
  * main - Prints "_putchar" followed by a new line.
@@ -8,15 +8,14 @@
 
 int main(void)
 {
-	_putchar('O');
-	_putchar('g');
-	_putchar('b');
-	_putchar('o');
-	_putchar('n');
-	_putchar('y');
-	_putchar('e');
-	_putchar('m');
-	_putchar('i');
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
 	_putchar('\n');
 
 	return 0;
