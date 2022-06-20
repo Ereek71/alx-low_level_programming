@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -13,10 +14,10 @@
 void *_memset(void *s, int c, size_t n)
 {
 	unsigned int a;
-	for (a = 0; a < n; a++)
-	{
-		dest[a] = src[a];
-	}
+	unsigned char *memory = s, value = c;
 
-	return (memory);
+	for (a = 0; a < n; a++)
+		memory[a] = value;
+
+	returm (memory);
 }
