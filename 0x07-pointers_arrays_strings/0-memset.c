@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
@@ -11,10 +10,10 @@
  * Return: A pointer to the filled memory area @s.
  */
 
-void *_memset(void *s, int c, size_t n)
+void *_memset(void *s, int b, size_t n)
 {
 	unsigned int a;
-	unsigned char *memory = s, value = c;
+	unsigned char *memory = s, value = b;
 
 	for (a = 0; a < n; a++)
 		memory[a] = value;
