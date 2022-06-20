@@ -10,7 +10,7 @@
  * Return: A pointer to the filled memory area @s.
  */
 
-void *_memset(void *s, int b, size_t n)
+void *_memset(char *s, int b, unsigned int n)
 {
 	unsigned int a;
 	unsigned char *memory = s, value = b;
@@ -18,5 +18,5 @@ void *_memset(void *s, int b, size_t n)
 	for (a = 0; a < n; a++)
 		memory[a] = value;
 
-	returm (memory);
+	return (memory);
 }
