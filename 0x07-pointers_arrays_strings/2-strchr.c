@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _strcgr - locates a character in a string
- * @s: the string
- * @c: the character
+ * _strchr - Locates a character in a string
+ * @s: The string
+ * @c: The character
  *
  * Return: Always Success
  */
